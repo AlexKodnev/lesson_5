@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face{
+	font-family: "Dihjauti";
+	src: url("../fonts/Dihjauti-Italic.woff2") format("woff2"), url("../fonts/Dihjauti-Italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic; 	
+}
+
+@font-face{
+	font-family: "Dihjauti";
+	src: url("../fonts/DihjautiS-Bold.woff2") format("woff2"), url("../fonts/DihjautiS-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal; 	
+}
+
+*{
+	font-size: 18px;
+	font-family:"Dihjauti";
+	font-style: italic;
+}
+
+div{
+	margin: 0 0 20px 0;
+
+}
+
+h1,h2,h3{
+	background-color: rgb(214, 245, 130);
+	text-transform: uppercase;
+	text-shadow: 1px 1px 5px rgb(85, 85, 85);
+		margin: 0 0 20px 0;
+		padding: 5px 0 5px 0;
+
+}
+
+h1{
+	font-size: 50px;
+	color:red;
+}
+h2{
+	font-size: 30px;
+	color: rgb(247, 143, 7);
+}
+h3{
+	font-size: 20px;
+	color:blueviolet;
+}
+
+li{
+	background-color: rgb(196, 73, 73);
+	letter-spacing: 3px;
+	text-decoration: underline;
+}
+
+p>a{
+	
+	color:blue;
+
+}
+
+ol>li{
+	font-size: 20px;
+	text-align: center;
+color:aqua;
+}
+.title{
+font-family:"Dihjauti";
+font-weight: 700;
+font-style: normal;
+text-align: center;
+}
+ul>li{
+	color:rgb(201, 76, 201);
+}
+p{
+	font-family: "Ubuntu Mono";
+}
+
+img{
+	width:100%;
+	margin: 20px 0 20px 0;
+
+}
